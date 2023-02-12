@@ -1,0 +1,32 @@
+#fully featured api 
+-authentication
+-crud
+-schema validation
+-documentation
+
+#tooling 
+-sql (PostGres)
+-integration of DB with api using raw queries and/or ORM's(SQLAlchemy)
+-DB migration tools like Alembic
+-Postman
+-Automated Integration Testing
+
+#Deployment
+- ubantu -> cloud
+  - Ngnx as reverse proxy , configure system deservice, set up firewall to block all non http traffic, seting up SSL to handel https traffic
+-Heroku Deployment(free tier)
+
+-Dockerising the api
+-CI/CD Pipeline with github actions
+
+
+#tech stack
+-Python 
+-FastApi
+-PostGres
+-SQLAlchemy
+
+
+
+
+
